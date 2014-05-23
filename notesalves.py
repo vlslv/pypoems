@@ -1,3 +1,16 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#title                  :notesalves.py
+#description            :poema "No te salves" de Mario Benedetti
+#author                 :vlslv
+#date                   :20140523
+#version                :0.1
+#usage                  :python notesalves.py
+#notes                  :
+#python_version         :2.7.5
+#==============================================================================
+
+titulo = 'NO TE SALVES'
 verso1 = ['te quedes inmovil \nal borde del camino',\
         'congeles el júbilo',\
         'quieras con desgana',\
@@ -34,18 +47,4 @@ if (condicion == 'pero si \npese a todo \nno puedes evitarlo'):
     for i in range(len(verso2)):
         print 'y',verso2[i]
 if (verso2[len(verso2)-1] == 'te salvas'):
-    print final
-
-# <codecell>
-
-if (titulo == 'NO TE SALVES'):
-    print titulo
-    for i in range(len(verso1)):
-        print 'no',verso1[i]
-if (condicion == 'pero si \npese a todo \nno puedes evitarlo'):
-    print condicion
-    for i in range(len(verso2)):
-        print 'y',verso2[i]
-if (verso2[len(verso2)-1] == 'te salvas'):
-    print final
-                                                                                                                                                    15,1          Bot
+    print final                                                                                              15,1          B
