@@ -36,8 +36,8 @@ verso2 = ['congelas el júbilo',\
         'te juzgas sin tiempo',
         'te quedas inmóvil \nal borde del camino',\
         'te salvas']
-
 final = 'entonces \nno te quedes conmigo\n'
+
 if (titulo == 'NO TE SALVES'):
     print titulo
     for i in range(len(verso1)):
