@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #title                  :ayjose.py
-#description    :poema  ¡Ay, José, así no se puede! de Cabrera Infante
+#description    :poema  Canción Cubana de Guillermo Cabrera Infante
 #author                 :vlslv
 #date                   :20140524
 #version                :0.1
