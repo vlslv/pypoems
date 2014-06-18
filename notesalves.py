@@ -47,4 +47,4 @@ if (condicion == 'pero si \npese a todo \nno puedes evitarlo'):
     for i in range(len(verso2)):
         print 'y',verso2[i]
 if (verso2[len(verso2)-1] == 'te salvas'):
-    print final                                                                                              15,1          B
+    print final
