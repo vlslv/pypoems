@@ -9,13 +9,13 @@
 #notes                  :
 #python_version :2.7.5
 #==============================================================================
-
+##########0123456789ABCDEFG
 titulo = '¡Ay, José, así no se puede!'
-serie=reversed([4,11,17,20,23,29])
-print '\n'+titulo+'\n'
+serie=reversed([3,9,17,21,26])
+print('\n'+titulo+'\n')
 for i in serie:
-    if (i == 23):
-        print titulo[0:21]+titulo[8:11]+titulo[len(titulo)-1]
+    if (i == 21):
+        print(titulo[0:19]+titulo[8:9]+titulo[-1])
     else:
-        print titulo[0:i]+titulo[len(titulo)-1]
-print '\n'
+        print(titulo[0:i]+titulo[-1])
+print('\n')
