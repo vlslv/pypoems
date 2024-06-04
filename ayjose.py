@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #title                  :ayjose.py
-#description    :poema  Canción Cubana de Guillermo Cabrera Infante
+#description            :poema  Canción Cubana de Guillermo Cabrera Infante
 #author                 :vlslv
-#date                   :20140524
-#version                :0.1
-#usage                  :python ayjose.py
+#date                   :20140524/20240604
+#version                :0.5
+#usage                  :python3 ayjose.py
 #notes                  :
-#python_version :2.7.5
+#python_version         :3.10
 #==============================================================================
-##########0123456789ABCDEFG
+##########012345678901234567890123456##############
 titulo = '¡Ay, José, así no se puede!'
 serie=reversed([3,9,17,21,26])
 print('\n'+titulo+'\n')
