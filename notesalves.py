@@ -3,11 +3,11 @@
 #title                  :notesalves.py
 #description            :poema "No te salves" de Mario Benedetti
 #author                 :vlslv
-#date                   :20140523
-#version                :0.1
-#usage                  :python notesalves.py
+#date                   :20140523/20240604
+#version                :0.1/0.5
+#usage                  :python3 notesalves.py
 #notes                  :
-#python_version         :2.7.5
+#python_version         :3.10
 #==============================================================================
 
 titulo = 'NO TE SALVES'
@@ -39,12 +39,12 @@ verso2 = ['congelas el júbilo',\
 final = 'entonces \nno te quedes conmigo\n'
 
 if (titulo == 'NO TE SALVES'):
-    print titulo
+    print(titulo)
     for i in range(len(verso1)):
-        print 'no',verso1[i]
+        print('no',verso1[i])
 if (condicion == 'pero si \npese a todo \nno puedes evitarlo'):
-    print condicion
+    print(condicion)
     for i in range(len(verso2)):
-        print 'y',verso2[i]
+        print('y',verso2[i])
 if (verso2[len(verso2)-1] == 'te salvas'):
-    print final
+    print(final)
